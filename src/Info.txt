@@ -1,0 +1,20 @@
+Hospital Management System:
+
+
+class patient              class Doctor             Hospital Management
+
+1. add patient()            1. view Doctor()        1. Driver class()
+2. view patient()           2. Check Doctor()       2. main menu()
+3. check patients()                                 3. main method
+                                                    4. exit()
+
+
+Table Schema :
+
+table 1 :          |    table 2 :           |       Table 3 :
+-------------------|------------------------|--------------------------------------
+Id (Primary Key)   |    Id (Primary Key)    |        Id (Primary Key)
+Name               |    Name                |        Patient Id (Forign key)
+Age                |    Specialization      |        Doctor Id (Forign key)
+Gender             |                        |        Appointment Date
+                   |                        |
